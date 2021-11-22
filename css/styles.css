@@ -206,6 +206,7 @@
 
 /* FOOTER TOP */
 #footer {
+    margin-top: 400px;
     padding: 3em 2em;
   }
   
@@ -310,3 +311,5 @@
       color: #333;
       margin: 0em 0.5em;
   }
+
+/*Accordion*/
