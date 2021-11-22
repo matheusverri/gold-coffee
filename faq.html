@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes</title>
+
+        <!-- Fonte - Lato -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+        <!-- CSS Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- ícones -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+        <!-- JavaScript Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- CSS projeto -->
+        <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary-color" id="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand primary-color">
+                <img src="img/logo.png" alt="Gold Coffee">
+                <span>Gold Coffee</span>
+            </a>
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-items"
+            aria-controls="navbar-items" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            >
+                <i class="bi bi-list"></i>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link primary-color">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="quemsomos.html" class="nav-link primary-color">Nosso time</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="faq.html" class="nav-link primary-color">FAQ</a>
+                  </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link primary-color">Opções</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Accordion -->
+        <div class="accordion container my-4" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Download e instalação
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>
+                        Para fazer a instalação do aplicativo, basta acessar <a href="#">nosso Github</a> e selecionar a opção <strong>"baixar como zip"</strong>. Depois de baixado, é possível fazer a execução através do arquivo com a extensão ".jar"
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Não encontrei o botão para fazer meu pedido, e agora?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>
+                        Este é apenas um site de apresentação de nossos serviços. Caso tenha gostado de algo e deseja iniciar um novo pedido, por favor baixe nosso aplicativo e aproveite!
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Como irei saber que meu pedido/reserva está pronto(a)?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>
+                          O processo de retirada dos pedidos ou então para a chegada em seu local de reserva é feito diretamente com nossos atendentes. Na finalização do pedido/reserva, um campo de contato é requerido com o objetivo de facilitar esta comunicação.
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    O que acontece se eu me esquecer da minha senha?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>
+                          O processo de recuperação é muito simples. Basta acessar a tela de login do nosso aplicativo e selecionar a opção <strong>"esqueci minha senha".</strong> Desta maneira, um campo aparecerá solicitando seu e-mail e um código será enviado para a redefinição de senha.
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Realizei um pedido mas gostaria de efetuar o cancelamento. Como posso fazer?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>
+                          Em caso de cancelamento, recomenda-se entrar em contato diretamente com o estabelecimento em que o pedido foi realizado e conversar com o recepcionista responsável. Outra alternativa é realizar o cancelamento diretamente pelo aplicativo <strong>(não é possível cancelar através do site!)</strong>
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Meu pedido chegou incompleto ou com algum problema. Como proceder?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>
+                          Sinto muito pelo ocorrido. Para receber os itens restantes ou devolução (reembolso) entre na aba "pedidos" do seu aplicativo e toque na opção "tenho um problema". Depois de descrever o ocorrido, selecione o botão "enviar" e sua solicitação será respondida o quanto antes.
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    Como posso me candidatar para trabalhar na Gold Coffee?
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>
+                          O processo seletivo é realizado da seguinte maneira: O candidato envia seu currículo via e-mail ou de maneira presencial e aguarda ser chamado para uma entrevista. Nesta etapa, realizada de maneira presencial, o pretendente deve se vestir de maneira casual/social e levar seus documentos.
+                          O resultado é divulgado através de contato direto com o candidato via e-mail e telefone.
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    Quais os benefícios de um funcionário?
+                  </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>
+                          Vale alimentação, refeição no local e plano de saúde.
+                      </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- Footer -->
+        <footer class="container-fluid bg-dark-color" id="footer">
+            <div class="container">
+              <div class="row">
+                <!-- FOOTER TOP -->
+                <div class="col-12" id="footer-top">
+                  <div class="row justify-content-between">
+                    <div class="col-4">
+                      <h2>
+                        Gold Coffee
+                      </h2>
+                    </div>
+                    <div class="col-4" id="social-icons">
+                      <i class="bi bi-facebook"></i>
+                      <i class="bi bi-instagram"></i>
+                      <i class="bi bi-youtube"></i>
+                      <i class="bi bi-twitter"></i>
+                    </div>
+                  </div>
+                </div>
+                <!-- FOOTER DETAILS -->
+                <div class="col-12" id="footer-details">
+                  <div class="row">
+                    <div class="col-12 col-md-4" id="news-container">
+                      <h4>Fique por dentro das novidades</h4>
+                      <p class="secondary-color">
+                        Inscreva-se para saber em primeira mão
+                      </p>
+                      <form>
+                        <div class="mb-3">
+                          <input
+                            type="email"
+                            class="form-control"
+                            placeholder="Digite o seu e-mail"
+                          />
+                        </div>
+                        <button class="btn btn-dark">Inscrever</button>
+                      </form>
+                    </div>
+                    <div class="col-12 col-md-4" id="contact-container">
+                      <h4>Formas de contato</h4>
+                      <p class="secondary-color">(48)9999-9999</p>
+                      <p class="secondary-color">contato@goldcoffee.com</p>
+                    </div>
+                    <div class="col-12 col-md-4" id="links-container">
+                      <div class="row">
+                        <h4>Você pode estar buscando por:</h4>
+                        <div class="col-6">
+                          <ul class="list-unstyled">
+                            <li><a href="#" class="secondary-color">Promoções</a></li>
+                            <li><a href="#" class="secondary-color">Endereço</a></li>
+                            <li><a href="#" class="secondary-color">Suporte</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-6">
+                          <ul class="list-unstyled">
+                            <li>
+                              <a href="#" class="secondary-color">Trabalhe conosco</a>
+                            </li>
+                            <li><a href="#" class="secondary-color">Contato</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- FOOTER BOTTOM -->
+                <div class="col-12" id="footer-bottom">
+                  <div class="row justify-content-between">
+                    <div class="col-12 col-md-3">
+                      <p class="secondary-color">GoldCoffee &copy; 2021</p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <p class="secondary-color">
+                        Peça agora seu café!
+                        <i class="bi bi-heart"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </footer>      
+</body>
+</html>
